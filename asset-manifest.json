@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github.io/brokertosi/client/static/css/main.ed0fcdad.css",
+    "main.js": "/github.io/brokertosi/client/static/js/main.540c0edb.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/github.io/brokertosi/client/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/3.jpg": "/github.io/brokertosi/client/static/media/3.71579ab8e1aed6b8d23f.jpg",
+    "static/media/5.jpg": "/github.io/brokertosi/client/static/media/5.7b0134153f94e071463b.jpg",
+    "static/media/6.jpg": "/github.io/brokertosi/client/static/media/6.6467909d65fbd4bf9cff.jpg",
+    "static/media/1.jpg": "/github.io/brokertosi/client/static/media/1.b653d3234bbb06c26a1f.jpg",
+    "static/media/4.jpg": "/github.io/brokertosi/client/static/media/4.a3515bb3ee90915b9617.jpg",
+    "static/media/2.jpg": "/github.io/brokertosi/client/static/media/2.daef97e74f9db8e22fcb.jpg",
+    "static/media/Poppins-Regular.ttf": "/github.io/brokertosi/client/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/LogoBrokerTosi.jpeg": "/github.io/brokertosi/client/static/media/LogoBrokerTosi.477cc49c78dd829e81c9.jpeg",
+    "index.html": "/github.io/brokertosi/client/index.html",
+    "main.ed0fcdad.css.map": "/github.io/brokertosi/client/static/css/main.ed0fcdad.css.map",
+    "main.540c0edb.js.map": "/github.io/brokertosi/client/static/js/main.540c0edb.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/github.io/brokertosi/client/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed0fcdad.css",
+    "static/js/main.540c0edb.js"
+  ]
+}
