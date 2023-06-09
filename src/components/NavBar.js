@@ -6,8 +6,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import image from '../assets/images/app/LogoBrokerTosi.jpeg';
 import {Link} from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/nav.css'
 
 function NavbarDark() {
@@ -42,10 +40,6 @@ useEffect(() => {
 		
 	}, [users.length])
 
-const handleChange = (e) =>{
-  setSearch(e.target.value);
-  filter(e.target.value);
-}
 
 const filter = (terminoBusqueda)=> {
   var resultadoBusqueda=users.filter((elemento)=>{

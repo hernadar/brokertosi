@@ -4,7 +4,7 @@ import '../assets/css/formSearch.css'
 import Switch from "react-switch";
 import SliderProp from './SliderProp';
 import propiedades from '../exports/Propidades';
-import { faTruckDroplet } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -16,7 +16,7 @@ function FormSearch() {
     const [propertiesFilteredSale, setPropertiesFilteredSale] = useState([]);
     const [propertiesFilteredRent, setPropertiesFilteredRent] = useState([]);
     
-    const [checked, setChecked] = useState(true);
+   
     const [modeSale, setModeSale] = useState(true);
     const [filteredId, setFilteredId] = useState(false);
     const [id, setId] = useState("");

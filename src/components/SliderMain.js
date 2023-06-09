@@ -1,7 +1,7 @@
 import React from "react";
 import images from '../exports/images';
 import '../assets/css/slider.css';
-import {animate, delay, motion, transform} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 
 

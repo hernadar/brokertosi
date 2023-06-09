@@ -1,7 +1,7 @@
 import React from "react";
 
 import '../assets/css/slider.css';
-import {animate, delay, motion, transform} from 'framer-motion';
+import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBed, faToilet, faVectorSquare,faCar } from '@fortawesome/free-solid-svg-icons';
 
