@@ -51,19 +51,24 @@ li {
    padding: 10px;
 
 }
+.footer li{
+    color:rgb(125, 156, 161);
+}
 .footer a{
-   text-decoration: none;  
+   text-decoration: none;
+   color:rgb(125, 156, 161);  
 }
 .social{
 	display: flex;
     flex-direction: column;
-	
+	color:rgb(125, 156, 161);
 	justify-content: center;
 }
 
 .social i{
 	font-size: 1.8rem;
 	transition: .3s ease;
+    color:rgb(125, 156, 161);
 }
 
 .social i:hover{
