@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import image from '../assets/images/app/LogoBrokerTosi.jpeg';
+import image from '../assets/images/app/LogoBrokerTosi.png';
 import {Link} from 'react-router-dom';
 import '../assets/css/nav.css'
 
@@ -55,7 +55,7 @@ const filter = (terminoBusqueda)=> {
    <>
    <Navbar  expand="lg" className="container">
       <Container fluid className="px-1">
-        <Navbar.Brand href='/'><img className= "shadow card" width={200} src={image} alt="logo"/></Navbar.Brand>
+        <Navbar.Brand href='/'><img className= "shadow card p-4" width={200} src={image} alt="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-light" />
         <Navbar.Collapse id="navbar-light">
           <Nav>

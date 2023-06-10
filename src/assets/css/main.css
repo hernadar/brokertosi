@@ -47,7 +47,9 @@ li {
     padding: 2rem;
 }
 .footer img{
-    width: 80%;   
+   width: 200px;
+   padding: 10px;
+
 }
 .footer a{
    text-decoration: none;  
