@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import image from '../assets/images/app/LogoBrokerTosi.png';
+import image from '../assets/images/app/LogoTosi2.png';
 import {Link} from 'react-router-dom';
 import '../assets/css/nav.css'
 
