@@ -10,7 +10,7 @@ import Home from './Home';
 function App() {
   return (
    <div>
-    <h2>Prueba</h2>
+  
    
     <Routes>
     <Route path="/" element={<Layout />}>
