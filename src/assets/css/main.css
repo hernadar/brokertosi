@@ -80,6 +80,7 @@ li {
 @media screen and (max-width: 480px){
 	.footer img{
         visibility: hidden;
+        width: 0px;
     }
     .footer ul{
        padding: 0;
