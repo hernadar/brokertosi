@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brokertosi/static/css/main.ac59da2c.css",
+    "main.css": "/brokertosi/static/css/main.9ab013ca.css",
     "main.js": "/brokertosi/static/js/main.a7b04f41.js",
     "static/js/787.c4e7f8f9.chunk.js": "/brokertosi/static/js/787.c4e7f8f9.chunk.js",
     "static/media/3.jpg": "/brokertosi/static/media/3.71579ab8e1aed6b8d23f.jpg",
@@ -13,12 +13,12 @@
     "static/media/LogoTosi2.png": "/brokertosi/static/media/LogoTosi2.89127817d68d52af688b.png",
     "static/media/LogoBrokerTosi.png": "/brokertosi/static/media/LogoBrokerTosi.fe697c6292daa2df2d9d.png",
     "index.html": "/brokertosi/index.html",
-    "main.ac59da2c.css.map": "/brokertosi/static/css/main.ac59da2c.css.map",
+    "main.9ab013ca.css.map": "/brokertosi/static/css/main.9ab013ca.css.map",
     "main.a7b04f41.js.map": "/brokertosi/static/js/main.a7b04f41.js.map",
     "787.c4e7f8f9.chunk.js.map": "/brokertosi/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac59da2c.css",
+    "static/css/main.9ab013ca.css",
     "static/js/main.a7b04f41.js"
   ]
 }
