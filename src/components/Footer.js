@@ -17,21 +17,23 @@ function Footer(){
 					</ul>
 				</div>
 				<div className="social mx-2">
-                        <a href="https://www.facebook.com/groups/239558763384940/permalink/1175024126505061/?mibextid=Nif5oz"><i
+                        <a href="https://www.facebook.com/profile.php?id=100093325501330"><i
                                 class="bi bi-facebook"></i>
 						</a>
 					
-                        <a href="https://www.instagram.com/tirofederaltrelewarqueria/"><i
+                        <a href="https://www.instagram.com/inmobiliariotosi/"><i
                                 class="bi bi-instagram"></i>
 						</a>		
-                        <a href="https://maps.app.goo.gl/gvRZdoBAervSJh2f9"><i
+                        <a href="https://goo.gl/maps/xEudgTGetKX6MheS8"><i
                                 class="bi bi-geo-alt-fill"></i>
 						</a> 
                 </div>		
 				<div>
 					<ul>
 						<li>Contacto: </li>
-						<li>Dirección </li>
+						<li>Perú 328, Cdad Mza</li>
+						<li>Tel: 0261-4201719</li>
+						<li>Wsp:+54-9-261-2170537</li>
 						<li>info@brokertosi.com.ar</li>
 					</ul>
 					</div>	

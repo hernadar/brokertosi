@@ -9,7 +9,7 @@ function Home() {
 
         <SliderMain/>
         <FormSearch/>
-        
+      
         </React.Fragment >
     )
 }

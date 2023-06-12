@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import '../assets/css/formSearch.css'
 import Switch from "react-switch";
 import SliderProp from './SliderProp';
-import propiedades from '../exports/Propidades';
+import propiedades from '../exports/Propiedades';
 
 
 

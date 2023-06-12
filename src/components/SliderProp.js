@@ -1,5 +1,5 @@
 import React from "react";
-
+import {NavLink} from 'react-router-dom';
 import '../assets/css/slider.css';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,7 +18,7 @@ return(
         {propiedades.map(propiedad =>(
             <motion.div className='item card shadow'>
                 
-                    <img src={propiedad.image} alt="" />
+                <NavLink to={`/property/${propiedad.id}/`}><img src={propiedad.image} alt="" /></NavLink>
                     <div className="modo">
                     <h2>{propiedad.mode}</h2>
                     </div>
@@ -31,13 +31,13 @@ return(
                             <p>{propiedad.address}</p>
                             <p>{propiedad.location}-{propiedad.departament}-{propiedad.province}</p>
                         </div>
-                        <div className='ametitis'>
+                        <div className='amenities'>
                         <FontAwesomeIcon icon={faBed} />
                         <p>Dormitorios: {propiedad.bedroom}</p>
                         <FontAwesomeIcon icon={faToilet} />
                         <p>Baños: {propiedad.bathroom}</p>
                         </div>
-                        <div className='ametitis'> 
+                        <div className='amenities'> 
                         <FontAwesomeIcon icon={faVectorSquare} />
                         <p>Sup: {propiedad.m2} m2</p>
                         {(propiedad.garage) &&
