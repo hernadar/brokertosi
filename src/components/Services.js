@@ -4,15 +4,20 @@ import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import pdf from '../assets/files/Broker_Tosi_solicitud_alquiler.pdf';
+import FormContact from './FormContact';
 
 function Services() {
     const [appl, setAppl] = useState(false);
     const [owner, setOwner] = useState(false);
+    const [tasar, setTasar] = useState(false);
     const applicant = () => {
         setAppl(!appl);
     }
     const ownerShow = () => {
         setOwner(!owner);
+    }
+    const tasarShow = () => {
+        setTasar(!tasar);
     }
     return (
         <React.Fragment>
@@ -85,7 +90,13 @@ function Services() {
                             <p>Nuestro equipo de expertos utilizará metodologías rigurosas y su profundo conocimiento del mercado local para brindarle una tasación precisa y objetiva.</p>
                             <p>Valoramos la confianza de nuestros clientes y nos comprometemos a ofrecer un servicio transparente y profesional. Confíe en nosotros para obtener una tasación confiable que respalde sus decisiones financieras y comerciales.</p>
                         </div>
+                        <label>Tasar Propiedad</label>
+                        <button className='btn' onClick={tasarShow}><FontAwesomeIcon icon={faArrowDown} /> </button>
 
+                        {(tasar) &&
+                            <>
+                                <FormContact/>
+                            </>}
                     </div>
                 </div>
             

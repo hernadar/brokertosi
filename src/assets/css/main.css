@@ -109,11 +109,17 @@ li {
     margin: 0.5rem;
     padding: 1rem;
     display: flex;
-    flex-wrap: wrap;
+    
     border: #f7b553 solid 1px;
     border-radius: .35rem;
     justify-content: space-around;
 }   
+.services{
+    
+    
+    
+
+}
 .location{
   
    margin: 0.5rem;
@@ -129,12 +135,7 @@ li {
    border-radius:.35rem
     
 }  
-.services{
-    display:flex;
-    justify-content: center;
-    
 
-}
 .contenedorServicio{
   
     margin: 0.5rem;
@@ -207,7 +208,9 @@ li {
         min-width: 300px;
     }
    
-    
+    .containerServices{
+        flex-direction: column;
+    }
     .services{
         flex-direction: column;
        
