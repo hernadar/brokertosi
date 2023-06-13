@@ -135,14 +135,16 @@ li {
    border-radius:.35rem
     
 }  
-
+.servicio{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .contenedorServicio{
   
     margin: 0.5rem;
-    position:relative;
-    /* display:flex;
-    justify-content: start;
-    flex-direction:column; */
+    
+    
     min-width:0;
     max-width: 30%;
     background-color:#fff;

@@ -24,7 +24,7 @@ function Services() {
 
             <SliderMain />
             <h2>Servicios</h2>
-            <div className='services'>
+            <div className='servicio'>
                 <div className='contenedorServicio'>
                     <div className='title'>
                         <h5>Venta</h5>
