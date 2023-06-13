@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brokertosi/static/css/main.5e9afa2b.css",
-    "main.js": "/brokertosi/static/js/main.58b39311.js",
+    "main.css": "/brokertosi/static/css/main.f01feb5b.css",
+    "main.js": "/brokertosi/static/js/main.be0a5abf.js",
     "static/js/787.c4e7f8f9.chunk.js": "/brokertosi/static/js/787.c4e7f8f9.chunk.js",
     "static/media/3.jpg": "/brokertosi/static/media/3.136a45668d45297d0013.jpg",
     "static/media/7.jpg": "/brokertosi/static/media/7.baf57c322b3c3f1b0587.jpg",
@@ -13,15 +13,16 @@
     "static/media/6.jpg": "/brokertosi/static/media/6.6467909d65fbd4bf9cff.jpg",
     "static/media/1.jpg": "/brokertosi/static/media/1.de3e3bbb081bafc791c4.jpg",
     "static/media/10.jpg": "/brokertosi/static/media/10.9d175c4d9e8da81d3c28.jpg",
+    "static/media/Broker_Tosi_solicitud_alquiler.pdf": "/brokertosi/static/media/Broker_Tosi_solicitud_alquiler.d9b4e04a2553970292ff.pdf",
     "static/media/Poppins-Regular.ttf": "/brokertosi/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/LogoBrokerTosi.png": "/brokertosi/static/media/LogoBrokerTosi.fe697c6292daa2df2d9d.png",
     "index.html": "/brokertosi/index.html",
-    "main.5e9afa2b.css.map": "/brokertosi/static/css/main.5e9afa2b.css.map",
-    "main.58b39311.js.map": "/brokertosi/static/js/main.58b39311.js.map",
+    "main.f01feb5b.css.map": "/brokertosi/static/css/main.f01feb5b.css.map",
+    "main.be0a5abf.js.map": "/brokertosi/static/js/main.be0a5abf.js.map",
     "787.c4e7f8f9.chunk.js.map": "/brokertosi/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e9afa2b.css",
-    "static/js/main.58b39311.js"
+    "static/css/main.f01feb5b.css",
+    "static/js/main.be0a5abf.js"
   ]
 }
