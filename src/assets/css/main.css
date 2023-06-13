@@ -13,7 +13,10 @@
 }
 
 /* globales */
-
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:rgb(125, 156, 161);
+}
 #navbar-light {
     width: 100%;
 }
@@ -76,6 +79,8 @@ li {
 	
 }
 
+
+
 .detail{
     display:flex;
 }
@@ -101,19 +106,83 @@ li {
 }    
 .containerServices{
     max-width: 90%;
-    margin: 0,5rem;
+    margin: 0.5rem;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
     border: #f7b553 solid 1px;
-    border-radius: 10px;
+    border-radius: .35rem;
     justify-content: space-around;
 }   
-.services{
-   
-    
+.location{
+  
+   margin: 0.5rem;
+   position:relative;
+   display:flex;
+   flex-direction:column;
+   min-width:0;
+   max-width: 90%;
+   word-wrap:break-word;
+   background-color:#fff;
+   background-clip:border-box;
+   border:1px solid #f7b553;
+   border-radius:.35rem
     
 }  
+.services{
+    display:flex;
+    justify-content: center;
+    
+
+}
+.contenedorServicio{
+  
+    margin: 0.5rem;
+    position:relative;
+    /* display:flex;
+    justify-content: start;
+    flex-direction:column; */
+    min-width:0;
+    max-width: 30%;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid #f7b553;
+    border-radius:.35rem
+} 
+.title{
+    margin: auto;
+}
+.btn-color{
+    display:inline-block;
+    font-weight:400;
+    color:#858796;
+    text-align:center;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid transparent;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:.35rem;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color:#f7b553 ;
+}
+
+.contenedorAbout{
+  
+    margin: auto;
+    position:relative;
+    padding: 2rem;
+    min-width:0;
+    max-width: 80%;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid #f7b553;
+    border-radius:.35rem
+} 
 @media screen and (max-width: 480px){
 	.footer img{
         visibility: hidden;
@@ -138,10 +207,18 @@ li {
         min-width: 300px;
     }
    
-    .containerServices{
-        
-        justify-content:space-between;
+    
+    .services{
+        flex-direction: column;
+       
+        /* display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+     */
     }   
+    .contenedorServicio{
+        max-width: 90%;
+    }
 }
 
 

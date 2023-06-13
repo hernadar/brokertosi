@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import image from '../assets/images/app/LogoBrokerTosi.png';
 import {Link} from 'react-router-dom';
 import '../assets/css/nav.css'
+import pdf from '../assets/files/Broker_Tosi_solicitud_alquiler.pdf';
 
 function NavbarDark() {
 
@@ -77,12 +78,15 @@ const filter = (terminoBusqueda)=> {
             <Link className="nav-link navbar-light  collapsed " to="/">
               Inicio
             </Link>
-            <Link className="nav-link navbar-light  collapsed "  to="/users/register">
+            <Link className="nav-link navbar-light  collapsed "  to="/services">
               Servicios
             </Link>
-            <Link className="nav-link navbar-light  collapsed "  to="/users/register">
-              Requisitos para alquilar
+            <Link className="nav-link navbar-light  collapsed "  to="/about">
+              Quienes Somos
             </Link>
+            <a href={pdf} target="_blank" rel="noopener noreferrer" download="Broker_Tosi_solicitud_alquiler.pdf" className="nav-link navbar-light  collapsed ">
+              Requisitos para alquilar
+            </a>
 
             
            

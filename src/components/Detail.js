@@ -4,9 +4,11 @@ import DetailAmenities from './DetailAmenities';
 import propiedad from '../exports/Propiedad';
 import DetailForm from './DetailForm';
 import DetailServices from './DetailServices';
+import DetailLocation from './DetailLocation';
 
 console.log(propiedad)
 function Detail() {
+   
     return (
         <React.Fragment>
 
@@ -23,7 +25,7 @@ function Detail() {
             
         </div>
         <DetailServices/>
-
+        <DetailLocation propiedad={propiedad}/>
         </React.Fragment >
     )
 }

@@ -5,8 +5,8 @@ import Layout from './Layout';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './Home';
 import Detail from './Detail';
-
-
+import Services from './Services';
+import About from './About';
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
     <Route path="/" element={<Layout />}>
       <Route  index element={<Home />} />
       <Route path='/property/:propertyId/' element={<Detail />} />
-    
+      <Route path='/services/' element={<Services />} />
+      <Route path='/about/' element={<About />} />
     </Route>
     </Routes>  
     </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import image from '../assets/images/app/LogoBrokerTosi.png';
 import {Link} from 'react-router-dom';
+import pdf from '../assets/files/Broker_Tosi_solicitud_alquiler.pdf';
+
 function Footer(){
     return (
         <React.Fragment>
@@ -11,9 +13,9 @@ function Footer(){
 				</div>
 				<div>
 					<ul>
-					<Link className=""> <li>Servicios</li></Link>
-					<Link className="">	<li>Propiedades</li></Link>
-					<Link className=""> <li>Requisitos para alquilar</li></Link>
+					<Link className="" to="/services"> <li>Servicios</li></Link>
+					<Link className="" to="/">	<li>Propiedades</li></Link>                    
+					<a href={pdf} target="_blank" rel="noopener noreferrer" download="Broker_Tosi_solicitud_alquiler.pdf">  <li>Requisitos para alquilar</li></a>
 					</ul>
 				</div>
 				<div className="social mx-2">
@@ -42,7 +44,7 @@ function Footer(){
 				
 			</footer>
 			<div className="copyright text-center my-auto">
-						<span>Copyright &copy; BrokerTosi 2023</span>
+						<span>Copyright &copy; NeuroDigital 2023</span>
 			</div>
 
         </React.Fragment>
